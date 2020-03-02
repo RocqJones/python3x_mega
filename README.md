@@ -308,17 +308,17 @@ root_dir/
 ```
 * [Specifying a Python Runtime](https://devcenter.heroku.com/articles/python-runtimes#supported-python-runtimes)
 * We will use [Heroku](https://www.heroku.com/) which is a cloud platform as a service supporting several programming languages, in this case for Python. To install [Heroku toolbelt](https://devcenter.heroku.com/articles/heroku-cli) on Linux(Debian) distro use ```$ sudo snap install --classic heroku```
-**a. Login on terminal** - Open terminal on ```mywebdir``` directory and use ```heroku login``` to login.
-**b. Create app** - Run ```heroku create jonespyflaskdeploy```. Note that 'jonespyflaskdeploy' will be the domain name. Don't kill this terminal.
-**c. Check for parkages** - Use ```$ pip freeze``` on 'mywebdir' directory.
-**d. Create requirements** - See on 'mywendir'.
-**e. Create 'Procfile'** - On 'mywebdir' and it shouldn't have a any extension. This file will tell the heroku server to point to 'script.py' and point to object app.
-**f. Create runtime file** - Should be a txt file. The runtime changes you should confirm from [here](https://devcenter.heroku.com/articles/python-support#supported-runtimes).
-**g. Initialize Git** - Go back and proceed from step 'b' which is step 5 in ```heroku_guide.txt```.
-**h. Add project files in .git repo** - Run ```$ git add .```
-**i. Commit changes** - ```$ git commit -m "first commit"```
-**j. Tell heroku which app we're working on** - ```$ heroku git:remote --app jonespyflaskdeploy```. So everything you do is applied to the domain.
-**k. Push changes** - ```$ git push heroku master```
+- **Login on terminal** - Open terminal on ```mywebdir``` directory and use ```heroku login``` to login.
+- **Create app** - Run ```heroku create jonespyflaskdeploy```. Note that 'jonespyflaskdeploy' will be the domain name. Don't kill this terminal.
+- **Check for parkages** - Use ```$ pip freeze``` on 'mywebdir' directory.
+- **Create requirements** - See on 'mywendir'.
+- **Create 'Procfile'** - On 'mywebdir' and it shouldn't have a any extension. This file will tell the heroku server to point to 'script.py' and point to object app.
+- **Create runtime file** - Should be a txt file. The runtime changes you should confirm from [here](https://devcenter.heroku.com/articles/python-support#supported-runtimes).
+- **Initialize Git** - Go back and proceed from step 'b' which is step 5 in ```heroku_guide.txt```.
+- **Add project files in .git repo** - Run ```$ git add .```
+- **Commit changes** - ```$ git commit -m "first commit"```
+- **Tell heroku which app we're working on** - ```$ heroku git:remote --app jonespyflaskdeploy```. So everything you do is applied to the domain.
+- **Push changes** - ```$ git push heroku master```
 
 * Now open browser and run link: https://jonespyflaskdeploy.herokuapp.com/ or ```$ heroku open```
 
