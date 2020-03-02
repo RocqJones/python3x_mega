@@ -1,0 +1,12 @@
+#!/bin/sh
+'''exec' "/home/intoverflown/pythonHome/Python_Mega/8.0App4:Website with Python and Flask/8.4myweb_virtual_env/virtual/bin/python3" "$0" "$@"
+' '''
+# -*- coding: utf-8 -*-
+import re
+import sys
+
+from setuptools.command.easy_install import main
+
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])
+    sys.exit(main())

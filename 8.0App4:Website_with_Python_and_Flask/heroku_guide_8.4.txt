@@ -1,0 +1,48 @@
+This guide is for linux(debian) users only.
+1. Installation.
+
+    $ sudo snap install --classic heroku
+
+2. Login. Make sure your on your project directory and not the virtual environment from this step.
+
+    $ heroku login
+
+3. Create application.
+
+    $ heroku create myexampledomainname
+    
+4. List applications.
+
+    $ heroku apps
+    
+    - At this point create following 3 files: requirements.txt, Procfile, and runtime.txt.
+    
+5. Initialize Git.
+
+    $ git init
+    
+6. Add files to git repo.
+
+    $ git add .
+    
+7. Commit.
+
+    $ git commit -m "first commit"
+    
+8. Tell heroku which app(project to point to)
+
+    $ heroku git:remote --app jonespyflaskdeploy
+    
+9. Git push heroku changes on master .
+
+    $ git push heroku master
+    
+10. FINAL. open 'https://jonespyflaskdeploy.herokuapp.com/' on browser and see if it was successful.
+
+11. If you write changes on the web commit changes with lines below.
+    $ heroku login
+    $ heroku info
+    $ git add .
+    $ git commit -m "initial commit"
+    $ git push heroku master
+    $ heroku open
