@@ -1,0 +1,6 @@
+Line 1
+Line 2
+Line 3
+Line 4: I've appended this
+Line 5: With statement using 'a+'
+Line 5: With statement using 'a+'
