@@ -239,7 +239,7 @@ Example:
 >>> map.save("Map1.html")
 ```
 * This will create 'Map1.html' that you can run on browser.
-[map1](map1.png)
+[map1](6.0App2:Creating_Webmaps_with_Folium/map1.png)
 
 ## 7.0 Website blocker.
 * The program will pick listed websites and write on 'hosts' file which is on dir: 
