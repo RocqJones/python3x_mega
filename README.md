@@ -82,7 +82,10 @@ print(car_dict)
 **keys** -> ```x = car_dict["model"]```, and also through 
 **values** -> ```x = car_dict.get("model")```
 
-### e) Error exception handling.
+### e) Sets
+A set is a collection which is unordered, it consists of **keys** and **values** but doesnot allow duplication
+
+### f) Error exception handling.
 It is possible to write programs that handle selected exceptions.
 #### ValueError.
 ```
@@ -127,7 +130,7 @@ for arg in sys.argv[1:]:
         f.close()
 ```
 
-### f) Conditionals and inputs.
+### g) Conditionals and inputs.
 * 'if' - Declears a condition.
 * 'elif' - If the previous conditions were not true, then try this condition.
 * 'else' - Catches anything which isn't caught by the preceding conditions.
@@ -142,7 +145,7 @@ else:
   print("a is greater than b")
 ```
 
-### g) Loops.
+### h) Loops.
 #### i. for loop
 * A 'for' loop is used for iterating over a sequence (that is either a list, a tuple, a dictionary, a set, or a string).
 ```
