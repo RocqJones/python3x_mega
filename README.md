@@ -246,7 +246,7 @@ Example:
 
 ## 7.0 Website blocker.
 * The program will pick listed websites and write on 'hosts' file which is on dir: 
-- Linux >>> ```hosts_path = "/etc/hosts"
+- Linux >>> ```hosts_path = "/etc/hosts"```
 - Windows >>> ```C:\Windows\System32\drivers\etc\hosts```
 * The program will send the domains with start block time and end block time.
 
@@ -283,7 +283,7 @@ root_dir/
     script.py
 ```
 
-#### e) Creating python virstual environment and deploying the test website to a live server.
+#### e) Creating python virtual environment and deploying the test website to a live server.
 * Install virtual environment ```pip install virtualenv``` . The best practice is to create the virtual env before creating the project.
 * On the root directory of project structure put all previous folders and files in one folder 'mywebdir' and create an virtual environment by running ``` $ python3 -m venv virtual``` command.
 * Now the project structure will be like:
