@@ -343,4 +343,4 @@ root_dir/
         script.py
     virtual/
 ```
-** NOTE:** The complete [heroku deployment guide text file will be found here.](https://github.com/RocqJones/python3x_mega/blob/master/8.0App4:Website_with_Python_and_Flask/heroku_guide_8.4.txt)
+**NOTE:** The complete [heroku deployment guide text file will be found here.](https://github.com/RocqJones/python3x_mega/blob/master/8.0App4:Website_with_Python_and_Flask/heroku_guide_8.4.txt)
