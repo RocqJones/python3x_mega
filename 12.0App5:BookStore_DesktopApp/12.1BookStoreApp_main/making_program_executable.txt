@@ -1,0 +1,6 @@
+1. Install 'pyinstaller'
+    $ pip install pyinstaller
+
+2. Run the installer pointing towards the main file.
+- Parameters to parse are '--onefile' for one executable file and '--windowed' for GUI
+    $ pyinstaller --onefile --windowed frontend.py
