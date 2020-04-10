@@ -510,16 +510,17 @@ A program that stores book information:
 * Title, Author
 * Year, ISBN
 
-User can View, Search, Add entry, Update entry, delete, and close app
-**Requirements**
+User can View, Search, Add entry, Update entry, delete, and close app.
+
+##### Requirements.
 * Tkinter and sqlite3 database.
 
-### 12.3 Bank Account with OOP
+#### 12.3 Bank Account with OOP
 * This program makes you understand disciplines of using OOP (Object Oriented Programming).
 * It covers classes, functions, and inheritance.
 * Program functionality include: **Checking bank balance, deposit, withdraw, transfer to other account.**
 
-### 12.4 OOP glossary
+#### 12.4 OOP glossary
 The program covers:
 * Classes.
 * Object instances.
@@ -529,13 +530,13 @@ The program covers:
 ## 13.0 Python image and video processing with OpenCV (Open-source Computer Vision) library.
 It is learning computer vision in Python.
 * [Computer Vision](https://en.wikipedia.org/wiki/Computer_vision) - It is a field that deals with acquiring and processing images and it makes decisions based on them. So you pass an image and the computer tries to understand the image and it can tell you how many faces are in the image.
-### 13.1 Loading, resizing, and writting image.
+#### 13.1 Loading, resizing, and writting image.
 This script loads an image, resizes it, display on a window and the writes to a new file.
-### 13.2 Script that resizes all images.
+#### 13.2 Script that resizes all images.
 The loop reads each image, resizes, displays,waits for the user input key, closes the window once the key is pressed and then writes the resized image under the existing file name together with the "resized_" prefix. The script resizes all images in a directory to 100x100.
-### 13.3 Face detection.
+#### 13.3 Face detection.
 I will use front face cascades for this section and if you need more cascades check them [here.](https://github.com/Itseez/opencv/tree/master/data/haarcascades)
-### 13.4 Capturing video.
+#### 13.4 Capturing video.
 This program appreciates [VideoCapture()](https://docs.opencv.org/3.4/d8/dfe/classcv_1_1VideoCapture.html) method that triggers video capture using a webcam.
 
 ## 14.0 Webcam motion detector.
