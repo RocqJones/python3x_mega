@@ -15,7 +15,23 @@ This guide is for linux(debian) users only.
 
     $ heroku apps
     
-    - At this point create following 3 files: requirements.txt, Procfile, and runtime.txt.
+    - At this point create following 3 files: requirements.txt, Procfile, and runtime.txt. Paste as follows
+        a. Procfile.
+            web: gunicorn script:app
+            
+        b. requirements.txt
+           Run: "$ pip freeze" and fill the following versions.
+            Flask==1.1.1
+            gunicorn==20.0.4
+            itsdangerous==1.1.0
+            Jinja2==2.10.1
+            MarkupSafe==1.1.1
+            Werkzeug==0.15.4
+            
+        c. runtime.txt
+            python-3.7.3
+            
+        NOTE: Your 'requirements.txt' and 'runtime.txt' might be different according to your version. Use your version.
     
 5. Initialize Git.
 
@@ -27,7 +43,7 @@ This guide is for linux(debian) users only.
     
 7. Commit.
 
-    $ git commit -m "first commit"
+    $ git commit -m "initial commit"
     
 8. Tell heroku which app(project to point to)
 
