@@ -316,7 +316,7 @@ root_dir/
 - **Create requirements** - See on 'mywendir'.
 - **Create 'Procfile'** - On 'mywebdir' and it shouldn't have a any extension. This file will tell the heroku server to point to 'script.py' and point to object app.
 - **Create runtime file** - Should be a txt file. For the runtime changes you should confirm from [here](https://devcenter.heroku.com/articles/python-support#supported-runtimes).
-- **Initialize Git** - Go back and proceed from step 'b' which is step 5 in ```heroku_guide.txt```.
+- **Initialize Git** - Go back and proceed from step 5 in [heroku_guide.txt](https://github.com/RocqJones/python3x_mega/blob/master/8.0App4:Website_with_Python_and_Flask/heroku_guide_8.4.txt).
 - **Add project files in .git repo** - Run ```$ git add .```
 - **Commit changes** - ```$ git commit -m "first commit"```
 - **Tell heroku which app we're working on** - ```$ heroku git:remote --app jonespyflaskdeploy```. So everything you do is applied to the domain.
